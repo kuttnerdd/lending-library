@@ -23,8 +23,7 @@
 		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
 			<span class="tool-box-tool">{{tool}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
-				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
-				{{^checkedout}}<a href="{{adress}}" target="_blank"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
+				<span class="tool-box-borrow btn">BO</span></a>
 				<ul>
 					<li><small>Ort: </small></li>
 					<li><a href="{{adress}}" target="_blank">{{ort}}</a><br />
