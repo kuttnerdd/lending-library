@@ -20,10 +20,10 @@
 
 		<script id="tools" type="text/html">
 		{{#rows}}
-		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
+		<div id="{{rowNumber}}" class="tool-box available">
 			<span class="tool-box-tool">{{tool}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
-				<span class="tool-box-borrow btn">BO</span></a>
+				<span class="tool-box-borrow btn">{{art}}</span></a>
 				<ul>
 					<li><small>Ort: </small></li>
 					<li><a href="{{adress}}" target="_blank">{{ort}}</a><br />
@@ -31,9 +31,7 @@
 					<li><small>CV</small><br />
 					{{cv}}</li>
 					<li><small>{{title}}</small></li>
-					{{#tooldetails}}
 					<li>{{tooldetails}}</li>
-					{{/tooldetails}}
 				</ul>
 			</div>
 		</div>
