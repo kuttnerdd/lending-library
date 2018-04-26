@@ -68,7 +68,7 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
 
 .tool-box-bottom {display: none; width: 100%;}
 
-.selected-tool {opacity: .75;}
+.selected-tool {border: 2px solid white;}
 
 a.imglink {border: none;}
 
