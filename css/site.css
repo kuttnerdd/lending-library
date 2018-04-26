@@ -48,7 +48,7 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
    -mox-box-sizing:border-box; -webkit-column-break-inside:avoid; -moz-column-break-inside:avoid;
    display: table; width: 100%;}
 .tool-box a {border-color: #9B9A9A;}
-.tool-box.available {background: #0087ff; color: #fff;}
+.tool-box.available {background: #31a1e3; color: #fff;}
 .tool-box.available a {border-color: #fff;}
 .tool-box:nth-child(1) {margin-top: 0;}
 .tool-box-tool { display: block; font-size: 26px; padding: 10px 0; text-align: center; width: 100%;
