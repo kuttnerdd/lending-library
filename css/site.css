@@ -30,7 +30,6 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
 
 .sml-button {cursor: pointer;padding: 5px 7px; background-color: #0087ff; font-weight: 700; font-size: 12px;
   text-transform: uppercase; letter-spacing: .1em; text-align: center; color: #fff;}
-.sml-button:hover {opacity: .75;}
 .button-pressed {background: #55b6ff;}
 
 /* #0087ff blue
@@ -53,7 +52,6 @@ input:not([type=submit]):not([type=file]):not([type=checkbox]) {margin: 19px 4px
 .tool-box:nth-child(1) {margin-top: 0;}
 .tool-box-tool { display: block; font-size: 26px; padding: 10px 20px; text-align: left; width: 100%;
   cursor: pointer; font-weight: 700;}
-.tool-box:hover {opacity: .75;}
 .tool-box ul {list-style: none; margin: 20px 0px 0px 0px; padding: 0px;}
 .tool-box li {margin: 10px 0px;}
 
