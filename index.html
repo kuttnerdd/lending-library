@@ -27,9 +27,11 @@
 				{{^checkedout}}<a href="{{adress}}" target="_blank"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
 				<ul>
 					<li><small>Ort: </small></li>
-					<li><a href="{{adress}}" target="_blank">{{ort}}</a></li>
-					<li>{{street}}, {{city}}, {{state}}</li>
-					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
+					<li><a href="{{adress}}" target="_blank">{{ort}}</a><br />
+					{{times}}</li>
+					<li>CV<br />
+					{{cv}}</li>
+					<li>{{title}}</li>
 					{{#tooldetails}}
 					<li><small>NOTES : </small>{{tooldetails}}</li>
 					{{/tooldetails}}
