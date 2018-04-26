@@ -24,10 +24,10 @@
 			<span class="tool-box-tool">{{tool}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
 				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
-				{{^checkedout}}<a href="mailto:{{adress}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
+				{{^checkedout}}<a href="{{adress}}" target="_blank"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
 				<ul>
-					<li><small>WHO / WHERE : </small></li>
-					<li><a href="mailto:{{adress}}">{{owner}}</a></li>
+					<li><small>Ort: </small></li>
+					<li><a href="{{adress}}" target="_blank">{{ort}}</a></li>
 					<li>{{street}}, {{city}}, {{state}}</li>
 					<li><a href="https://maps.google.com/maps?q={{street}},{{city}},{{state}}" target="_blank"><small>MAP</small></a></li>
 					{{#tooldetails}}
