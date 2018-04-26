@@ -20,11 +20,11 @@
 
 		<script id="tools" type="text/html">
 		{{#rows}}
-		<div id="{{rowNumber}}" class="tool-box {{#checkedout}}not-{{/checkedout}}available">
+		<div id="{{rowNumber}}" class="tool-box {{#Aktion}}not-{{/Aktion}}available">
 			<span class="tool-box-tool">{{tool}}</span>
 			<div class="tool-box-bottom {{rowNumber}}">
-				{{#checkedout}} <span class="tool-box-borrowed">ON LOAN</span>{{/checkedout}}
-				{{^checkedout}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/checkedout}}
+				{{#Aktion}} <span class="tool-box-borrowed">ON LOAN</span>{{/Aktion}}
+				{{^Aktion}}<a href="mailto:{{owneremail}}?subject=Tool Lending: {{tool}}"><span class="tool-box-borrow btn">BORROW</span></a>{{/Aktion}}
 				<ul>
 					<li><small>WHO / WHERE : </small></li>
 					<li><a href="mailto:{{owneremail}}">{{owner}}</a></li>
